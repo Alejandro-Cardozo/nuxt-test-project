@@ -5,7 +5,7 @@
       v-for="post of posts"
       v-bind:key="post.id"
       :name="post.title"
-      :identificator="post.id"
+      :id="post.id"
     />
   </div>
 </template>
